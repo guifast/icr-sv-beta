@@ -1024,6 +1024,15 @@ h3 {
   content: "";
 }
 
+.author-photo picture {
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent),
+    rgba(4, 25, 35, 0.78);
+}
+
 .author-photo img {
   position: relative;
   width: 100%;
@@ -1032,7 +1041,9 @@ h3 {
   border-radius: 12px;
   box-shadow: none;
   object-fit: cover;
-  object-position: center;
+  object-position: 50% 46%;
+  transform: scale(1.16) translateY(-3.5%);
+  transform-origin: 50% 44%;
 }
 
 .author-grid .section-copy {
@@ -1544,9 +1555,15 @@ details p {
     padding: 0;
   }
 
+  .author-photo picture {
+    overflow: visible;
+    background: transparent;
+  }
+
   .author-photo img {
     aspect-ratio: 1;
     object-position: center;
+    transform: none;
   }
 
   .step {

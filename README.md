@@ -19,6 +19,7 @@ O material e apresentado como recurso de apoio a escuta clinica. Ele nao e apres
 ├── script.js       # CTAs, modais, scroll progress e animacoes
 ├── raul1.jpeg      # Imagem do autor / Open Graph
 ├── raul2.jpeg      # Imagem do autor para mobile
+├── og-image.png    # Preview social 1200x630
 ├── _headers        # Headers de seguranca/cache para Cloudflare Pages
 ├── _redirects      # Fallback estatico
 └── robots.txt      # Regras basicas de indexacao
