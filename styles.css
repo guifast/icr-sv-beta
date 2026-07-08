@@ -178,6 +178,7 @@ a {
 
 .brand-mark {
   display: grid;
+  position: relative;
   flex: 0 0 46px;
   width: 46px;
   min-width: 46px;
@@ -188,16 +189,23 @@ a {
   place-items: center;
   border: 1px solid rgba(121, 216, 220, 0.46);
   border-radius: 50%;
-  background-color: var(--white);
-  background-image:
-    url("sentido-clinico-mark.png"),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.88));
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 76%, auto;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.88)),
+    var(--white);
   box-shadow: 0 0 0 6px rgba(121, 216, 220, 0.04);
-  contain: paint;
+  contain: layout paint size;
   overflow: hidden;
+}
+
+.brand-mark-image {
+  position: absolute;
+  inset: 12%;
+  display: block;
+  width: 76%;
+  max-width: 76%;
+  height: 76%;
+  max-height: 76%;
+  object-fit: contain;
 }
 
 .brand strong,
