@@ -996,7 +996,7 @@ h3 {
 }
 
 .author-grid {
-  grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+  grid-template-columns: minmax(280px, 350px) minmax(0, 1fr);
   align-items: center;
   gap: 76px;
   width: min(calc(100% - 56px), 1120px);
@@ -1007,7 +1007,7 @@ h3 {
   position: relative;
   align-self: center;
   justify-self: center;
-  width: min(100%, 340px);
+  width: min(100%, 350px);
   border: 1px solid rgba(6, 37, 54, 0.08);
   border-radius: 22px;
   background:
@@ -1032,7 +1032,7 @@ h3 {
   display: block;
   overflow: hidden;
   border-radius: 16px;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent),
     rgba(4, 25, 35, 0.78);
@@ -1046,9 +1046,9 @@ h3 {
   border-radius: 16px;
   box-shadow: none;
   object-fit: cover;
-  object-position: 50% 44%;
-  transform: scale(1.1) translateY(-2%);
-  transform-origin: 50% 42%;
+  object-position: 50% 40%;
+  transform: none;
+  transform-origin: center;
 }
 
 .author-grid .section-copy {
