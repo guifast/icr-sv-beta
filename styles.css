@@ -178,18 +178,22 @@ a {
 
 .brand-mark {
   display: grid;
-  width: 42px;
-  height: 42px;
+  width: 46px;
+  height: 46px;
   place-items: center;
   border: 1px solid rgba(121, 216, 220, 0.46);
   border-radius: 50%;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
-    rgba(121, 216, 220, 0.06);
-  color: var(--cyan-300);
-  font-size: 0.78rem;
-  font-weight: 800;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.88)),
+    var(--white);
   box-shadow: 0 0 0 6px rgba(121, 216, 220, 0.04);
+  overflow: hidden;
+}
+
+.brand-mark img {
+  width: 76%;
+  height: 76%;
+  object-fit: contain;
 }
 
 .brand strong,
@@ -455,6 +459,21 @@ h3 {
 .section-heading p {
   color: rgba(255, 255, 255, 0.79);
   font-size: 1.12rem;
+}
+
+.hero-product {
+  max-width: 700px;
+  margin: -4px 0 0;
+  border-left: 3px solid var(--cyan-300);
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 1.08rem;
+  line-height: 1.55;
+  padding-left: 18px;
+}
+
+.hero-product strong {
+  color: var(--cyan-300);
+  font-weight: 900;
 }
 
 .section-copy p,

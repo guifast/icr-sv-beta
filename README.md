@@ -1,6 +1,6 @@
 # Sentido Clinico | ICR-SV Beta Landing Page
 
-Landing page publica do **Sentido Clinico**, marca-mae que apresenta o **ICR-SV Beta — Inventario Clinico-Reflexivo de Sentido de Vida**, recurso clinico-reflexivo para psicologos.
+Landing page publica do **Sentido Clinico**, marca-mae que apresenta o **ICR-SV Beta — Guia Clinico-Reflexivo de Sentido de Vida**, recurso clinico-reflexivo para psicologos.
 
 O projeto foi criado como uma pagina estatica premium, responsiva e pronta para publicacao via **Cloudflare Pages**.
 
@@ -21,6 +21,8 @@ A pagina tambem deixa uma trilha discreta para evolucao futura da marca Sentido 
 ├── script.js       # CTAs, modais, scroll progress e animacoes
 ├── raul1.jpeg      # Imagem do autor / Open Graph
 ├── raul2.jpeg      # Imagem do autor para mobile
+├── sentido-clinico-logo.jpeg # Logo completa da marca
+├── sentido-clinico-mark.png  # Recorte do simbolo para header
 ├── og-image.png    # Preview social 1200x630
 ├── _headers        # Headers de seguranca/cache para Cloudflare Pages
 ├── _redirects      # Fallback estatico
