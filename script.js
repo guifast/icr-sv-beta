@@ -1,4 +1,4 @@
-const CHECKOUT_URL = "#";
+const CHECKOUT_URL = "https://pay.kiwify.com.br/4o0udF4";
 const WHATSAPP_URL = "https://wa.me/5547992642578";
 const INTEREST_FORM_URL = "#";
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
