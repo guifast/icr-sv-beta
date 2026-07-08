@@ -98,12 +98,13 @@ function coverSvg() {
     <text x="80" y="39" fill="${palette.white}" font-family="Arial, sans-serif" font-size="16" font-weight="900">Sentido Clínico</text>
     <text x="81" y="58" fill="${palette.muted}" font-family="Arial, sans-serif" font-size="11" font-weight="800">recurso clínico-reflexivo</text>
     <rect x="78" y="82" width="144" height="24" rx="12" fill="none" stroke="${palette.aqua}" stroke-opacity=".85"/>
-    <text x="99" y="99" fill="${palette.aqua}" font-family="Arial, sans-serif" font-size="11" font-weight="950" letter-spacing=".5">KIT DIGITAL</text>
-    <text x="28" y="148" fill="${palette.white}" font-family="Georgia, serif" font-size="43" font-weight="800">ICR-SV Beta</text>
-    <text x="44" y="182" fill="${palette.muted}" font-family="Arial, sans-serif" font-size="18" font-weight="900">Guia de Sentido de Vida</text>
-    <path d="M96 198h108" stroke="${palette.gold}" stroke-width="3"/>
-    <rect x="104" y="211" width="92" height="28" rx="14" fill="${palette.aqua}"/>
-    <text x="124" y="231" fill="${palette.ink}" font-family="Arial, sans-serif" font-size="16" font-weight="950">R$37</text>
+    <text x="150" y="99" text-anchor="middle" fill="${palette.aqua}" font-family="Arial, sans-serif" font-size="11" font-weight="950" letter-spacing=".5">KIT DIGITAL</text>
+    <text x="150" y="141" text-anchor="middle" fill="${palette.white}" font-family="Georgia, serif" font-size="44" font-weight="800">ICR-SV</text>
+    <text x="150" y="179" text-anchor="middle" fill="${palette.white}" font-family="Georgia, serif" font-size="40" font-weight="800">Beta</text>
+    <text x="150" y="203" text-anchor="middle" fill="${palette.muted}" font-family="Arial, sans-serif" font-size="15" font-weight="900">Guia de Sentido de Vida</text>
+    <path d="M102 213h96" stroke="${palette.gold}" stroke-width="3"/>
+    <rect x="104" y="222" width="92" height="24" rx="12" fill="${palette.aqua}"/>
+    <text x="150" y="239" text-anchor="middle" fill="${palette.ink}" font-family="Arial, sans-serif" font-size="15" font-weight="950">R$37</text>
   </svg>`;
 }
 
@@ -155,7 +156,8 @@ function heroSvg() {
     <text x="315" y="754" fill="${palette.white}" font-family="Arial, sans-serif" font-size="24" font-weight="900">6 dimensões clínicas</text>
     <rect x="576" y="715" width="210" height="60" rx="30" fill="${palette.aqua}"/>
     <text x="609" y="754" fill="${palette.ink}" font-family="Arial, sans-serif" font-size="26" font-weight="950">Acesso R$37</text>
-    <text x="102" y="835" fill="${palette.muted}" opacity=".92" font-family="Arial, sans-serif" font-size="21" font-weight="700">Uso destinado a profissionais da Psicologia. Não se trata de teste psicológico ou instrumento diagnóstico.</text>
+    <text x="102" y="823" fill="${palette.muted}" opacity=".92" font-family="Arial, sans-serif" font-size="21" font-weight="700">Uso destinado a profissionais da Psicologia.</text>
+    <text x="102" y="854" fill="${palette.muted}" opacity=".92" font-family="Arial, sans-serif" font-size="21" font-weight="700">Não se trata de teste psicológico ou instrumento diagnóstico.</text>
     <g filter="url(#panelShadow)">
       <rect x="1010" y="118" width="455" height="640" rx="34" fill="#173b45" opacity=".92" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
       <rect x="1034" y="142" width="407" height="592" rx="26" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
