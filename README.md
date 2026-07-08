@@ -1,14 +1,16 @@
-# ICR-SV Beta Landing Page
+# Sentido Clinico | ICR-SV Beta Landing Page
 
-Landing page publica do **ICR-SV Beta — Inventario Clinico-Reflexivo de Sentido de Vida**, recurso clinico-reflexivo para psicologos.
+Landing page publica do **Sentido Clinico**, marca-mae que apresenta o **ICR-SV Beta — Inventario Clinico-Reflexivo de Sentido de Vida**, recurso clinico-reflexivo para psicologos.
 
 O projeto foi criado como uma pagina estatica premium, responsiva e pronta para publicacao via **Cloudflare Pages**.
 
 ## Objetivo
 
-Vender e validar a oferta inicial do Kit Digital ICR-SV Beta, mantendo comunicacao clinica, sobria e eticamente responsavel.
+Vender e validar a oferta inicial do Kit Digital ICR-SV Beta por R$37, mantendo comunicacao clinica, sobria e eticamente responsavel.
 
 O material e apresentado como recurso de apoio a escuta clinica. Ele nao e apresentado como teste psicologico, escala diagnostica, instrumento psicometrico validado ou ferramenta de avaliacao psicologica padronizada.
+
+A pagina tambem deixa uma trilha discreta para evolucao futura da marca Sentido Clinico, com lista de interesse para novos recursos clinico-reflexivos sem competir com a venda principal desta V1.
 
 ## Estrutura
 
@@ -32,6 +34,7 @@ Links de compra e atendimento ficam em `script.js`:
 ```js
 const CHECKOUT_URL = "#";
 const WHATSAPP_URL = "https://wa.me/5547992642578";
+const INTEREST_FORM_URL = "#";
 ```
 
 Textos principais, preco e secoes da landing ficam em `index.html`.
@@ -79,6 +82,7 @@ Depois de conectar o repositorio `guifast/icr-sv-beta`, cada push na branch `mai
 ## Checklist antes de publicar
 
 - Atualizar `CHECKOUT_URL` em `script.js`
+- Atualizar `INTEREST_FORM_URL` em `script.js`, se a lista de interesse for publicada
 - Confirmar WhatsApp em `script.js`
 - Revisar preco em `index.html`
 - Revisar termos, politica de privacidade e aviso de responsabilidade

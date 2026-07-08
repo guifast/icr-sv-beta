@@ -1,5 +1,6 @@
 const CHECKOUT_URL = "#";
 const WHATSAPP_URL = "https://wa.me/5547992642578";
+const INTEREST_FORM_URL = "#";
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const isMobileViewport = window.matchMedia("(max-width: 720px)").matches;
 
@@ -11,6 +12,10 @@ document.querySelectorAll("[data-whatsapp]").forEach((link) => {
   link.setAttribute("href", WHATSAPP_URL);
   link.setAttribute("target", "_blank");
   link.setAttribute("rel", "noreferrer");
+});
+
+document.querySelectorAll("[data-interest]").forEach((link) => {
+  link.setAttribute("href", INTEREST_FORM_URL);
 });
 
 const revealObserver = "IntersectionObserver" in window
@@ -73,7 +78,8 @@ const mobileStaggerGroups = [
   ".dimension-grid",
   ".steps",
   ".checklist",
-  ".faq-list"
+  ".faq-list",
+  ".future-grid"
 ];
 
 if (isMobileViewport) {
